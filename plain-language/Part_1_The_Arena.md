@@ -42,7 +42,7 @@ Every watt we use—from any source—ends up as heat. That's not about fossil f
 
 $$P_{\mathrm{rad}} = \varepsilon \sigma A T^4$$
 
-where $\varepsilon$ = emissivity (fraction of blackbody), $\sigma$ = Stefan–Boltzmann constant, $A$ = radiating area, $T$ = temperature. If we add power P to the planet's energy balance, T must rise until radiation matches the new total. This is basic physics. It doesn't depend on which fuel we use, which technology, or which policy.
+where $\varepsilon$ = emissivity (fraction of blackbody), $\sigma$ = Stefan–Boltzmann constant, $A$ = radiating area, $T$ = temperature. If we add power $P$ to the planet's energy balance, $T$ must rise until radiation matches the new total. This is basic physics. It doesn't depend on which fuel we use, which technology, or which policy.
 
 ### The two constraints
 
@@ -83,11 +83,11 @@ The first is unavoidable. The second is, in principle, reducible with better eng
 
 Energy is conserved—the First Law. Earth gets energy from the Sun and radiates about the same amount back. But civilisation isn't powered by *energy*. It's powered by **exergy**: the part of energy that can do useful work.
 
-**Carnot limit:** For heat at temperature T_hot in an environment at T_cold, the maximum fraction convertible to work is:
+**Carnot limit:** For heat at temperature $T_{\mathrm{hot}}$ in an environment at $T_{\mathrm{cold}}$, the maximum fraction convertible to work is:
 
 $$\frac{W_{\max}}{Q} = 1 - \frac{T_{\mathrm{cold}}}{T_{\mathrm{hot}}}$$
 
-($W_{\max}$ = maximum work, $Q$ = heat input, $T_{\mathrm{hot}}$ and $T_{\mathrm{cold}}$ = reservoir temperatures). The bigger the temperature difference, the more of the heat can become work. When T_hot = T_cold, exergy is zero—there's energy, but it can't do anything useful.
+($W_{\max}$ = maximum work, $Q$ = heat input, $T_{\mathrm{hot}}$ and $T_{\mathrm{cold}}$ = reservoir temperatures). The bigger the temperature difference, the more of the heat can become work. When $T_{\mathrm{hot}} = T_{\mathrm{cold}}$, exergy is zero—there's energy, but it can't do anything useful.
 
 Unlike energy, exergy is *destroyed* by every real process. Friction, mixing, heat transfer across temperature differences—all destroy exergy. A fundamental result (Gouy–Stodola) says: exergy destroyed = T × (entropy generated). So minimising entropy generation and minimising exergy destruction are the same thing.
 
@@ -116,6 +116,6 @@ At steady state, energy in = energy out:
 
 $$P_{\odot} + P_{\mathrm{civ}} = \varepsilon \sigma A T^4$$
 
-($P_{\odot}$ = absorbed solar flux, $P_{\mathrm{civ}}$ = our waste heat, $\varepsilon$ = emissivity, $\sigma$ = Stefan–Boltzmann constant, $A$ = Earth's radiating area, $T$ = equilibrium temperature). So if P_civilisation grows—as it has for two centuries—T must rise. The relation is nonlinear (T ∝ fourth root of power) but monotonic and fixed by physics. No technology, fuel, or policy changes it. Efficiency gains don't remove it, because the waste heat comes from power use itself.
+($P_{\odot}$ = absorbed solar flux, $P_{\mathrm{civ}}$ = our waste heat, $\varepsilon$ = emissivity, $\sigma$ = Stefan–Boltzmann constant, $A$ = Earth's radiating area, $T$ = equilibrium temperature). So if $P_{\mathrm{civ}}$ grows—as it has for two centuries—$T$ must rise. The relation is nonlinear ($T \propto$ fourth root of power) but monotonic and fixed by physics. No technology, fuel, or policy changes it. Efficiency gains don't remove it, because the waste heat comes from power use itself.
 
 **The cage:** Earth has a fixed radiating area. Emissivity is set by the atmosphere. The only free variable is temperature—and that's what determines habitability. Civilisation sits between a source it can choose (solar, nuclear, fossil) and a sink it cannot. The source sets how much usable energy we can access. The sink sets how much total power we can dissipate before the planet becomes uninhabitable. The gap between these—and how fast we're closing it—is what this essay is about.
