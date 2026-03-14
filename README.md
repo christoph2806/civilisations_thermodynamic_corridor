@@ -162,4 +162,9 @@ The work is a **serious theoretical contribution**. The physics is sound; the ec
 | `PROOF_STRUCTURE.md` | Logical chain and critical path |
 | `WEAK_POINTS.md` | Gaps, validation needs, citation checklist |
 | `COMPARISON_author_vs_analysis.md` | Author vs analysis alignment |
+| `plain-language/Part_1_The_Arena.md` | Plain-language Part 1 (cosmology, entropy, boundary rule) |
+| `plain-language/Part_2_The_Machine.md` | Plain-language Part 2 (assembly stock, Γ, ceiling, Landauer) |
+| `plain-language/Part_3_The_Trajectory.md` | Plain-language Part 3 (maximum power, inertia, amplifiers) |
+| `plain-language/Part_4_The_Viability_Problem.md` | Plain-language Part 4 (constraint hierarchy, viability theory, competitive derivation) |
+| `plain-language/Part_5_Implications.md` | Plain-language Part 5 (Fermi, control surface, seven strategies, value functional) |
 | `README.md` | This document |
