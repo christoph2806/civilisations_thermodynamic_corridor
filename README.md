@@ -2,6 +2,8 @@
 
 This document summarises the analysis of the philosophical work "Civilisation's Thermodynamic Corridor," conducted through structured conversation and documented in the analysis directory.
 
+**Original work by** [Object Zero](https://x.com/Object_Zero_) · [Source](https://x.com/Object_Zero_/status/2032518924311363949?s=20)
+
 ---
 
 ## 1. Methodology
