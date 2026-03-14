@@ -162,4 +162,4 @@ The work is a **serious theoretical contribution**. The physics is sound; the ec
 | `PROOF_STRUCTURE.md` | Logical chain and critical path |
 | `WEAK_POINTS.md` | Gaps, validation needs, citation checklist |
 | `COMPARISON_author_vs_analysis.md` | Author vs analysis alignment |
-| `summary.md` | This document |
+| `README.md` | This document |
