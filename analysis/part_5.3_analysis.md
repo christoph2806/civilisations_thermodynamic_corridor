@@ -40,5 +40,6 @@ Viability sorting; existence proof (biosphere); burden-transfer formalisation; c
 
 ## CRITICAL REVIEW
 
-**Validation**: Biosphere Γ_bio ≪ Γ_tech quantification; β replacement ratio calibration
+**Biosphere existence proof**: *Verification: Collapses.* Essay separates physical vs institutional feasibility; reframes coordination as "change rules" not "replicate evolution." See WEAK_POINTS_VERIFICATION.md.
+**β (P7b) replacement ratio**: Author catalogues Step 2 formalisation as Open Problem 6. Validation need for calibration remains justified.
 **Key distinction**: "Merely difficult vs physically impossible" maps to tier structure

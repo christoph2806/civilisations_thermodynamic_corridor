@@ -77,6 +77,6 @@ Establishes thermodynamic primitives (entropy balance, exergy, boundary choice) 
 
 ## CRITICAL REVIEW
 
-**Validation needed**: Boundary renormalisation principle—is "materially perturb" well-defined? What threshold?
+**Boundary renormalisation ("materially perturb")**: *Verification: Partial collapse.* Essay gives concrete examples (10° room heating, city changing local climate, civilisation altering radiative balance) and explicit planetary conclusion (top-of-atmosphere / deep space). For main argument, boundary well-defined; threshold qualitative for intermediate edge cases. See WEAK_POINTS_VERIFICATION.md.
 
 **Gap**: Spacecraft boundary (radiator surface) mentioned but not developed.

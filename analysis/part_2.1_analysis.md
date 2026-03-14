@@ -71,5 +71,7 @@ Defines civilisation as thermodynamic maintenance stock Σ via four axioms; esta
 
 ## CRITICAL REVIEW
 
-**Validation**: Verify Sharma et al. 2023 assembly index at civilisational scale; verify Garrett citation
+**Assembly Theory at civilisational scale**: *Verification: Collapses.* Essay states A1–A4 are necessary and sufficient; "if Assembly Theory is rejected at civilisational scale... the rejection does not touch the axioms, and the axioms carry the entire load." See WEAK_POINTS_VERIFICATION.md.
+**Γ_bio ≪ Γ_tech**: *Verification: Partial.* Essay asserts inequalities "robust across any plausible refinement"; cites Bar-On, Elhacham, Kleidon; two convergent routes for Σ_tech.
+**Validation**: Verify Garrett citation methodology.
 **Gap**: σᵢ units and aggregation from molecular to civilisational scale not fully specified

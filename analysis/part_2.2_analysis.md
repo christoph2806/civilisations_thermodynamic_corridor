@@ -47,5 +47,5 @@ Derives full power-assembly coupling P = Γ(t)·Σ; introduces metabolic multipl
 
 ## CRITICAL REVIEW
 
-**Validation**: μ calibration (40–60% maintenance-equivalent)—source? Methodology?
+**μ calibration (40–60% maintenance-equivalent)**: *Verification: Partial collapse.* Essay explains reasoning: depreciation (15% GDP) is lower bound; physical accounting includes repair, operational upkeep, supply-chain energy, service-sector upkeep. Cites BEA 2023, Bath ICE, IEA (30–50% energy). No single meta-analysis for 40–60% economic throughput. See WEAK_POINTS_VERIFICATION.md.
 **Key claim**: "The waste heat analysis needs only existence and positivity of coupling"—verified; ceiling derivation in 2.3 uses this.

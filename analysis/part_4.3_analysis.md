@@ -54,6 +54,7 @@
 
 ## CRITICAL REVIEW
 
-**Validation**: A8 structural axiom—is share function sᵢ = ΓᵢΣᵢ/ΣΓₖΣₖ the only possibility?
-**A9**: Absolute continuity + recurrence—are civilisational perturbations well-modeled?
+**A8 (Share function)**: *Verification: Collapses.* Essay states results hold for any allocation mechanism satisfying the three monotonicity conditions; specific form is one instance. See WEAK_POINTS_VERIFICATION.md.
+**A9 (Perturbations)**: *Verification: Partial.* Essay argues civilisational analogues (resource shocks, climate variability, etc.) are "empirically ubiquitous"; axiom stated as physically minimal. Rigorous proof of applicability not given.
+**SE1 (Convergence timescale)**: Author acknowledges bound "admittedly loose"; HEURISTIC in Formal Results Register. Sufficient for essay's argument.
 **Key achievement**: Maximum power derived, not assumed

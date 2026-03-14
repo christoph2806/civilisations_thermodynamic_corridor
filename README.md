@@ -146,10 +146,10 @@ The work is a **serious theoretical contribution**. The physics is sound; the ec
 ### 4.4 Validation Priorities
 
 1. Garrett λ and Hanley pre-1970 data
-2. Assembly Theory at civilisational scale
-3. A8 share function and A9 perturbation assumptions
-4. Empirical rebound and AI energy estimates
-5. Open Problem 6 (P7b Step 2 axiomatic derivation)
+2. A9 perturbation assumptions (A8 share function: verified—essay addresses)
+3. Empirical rebound and AI energy estimates
+4. Open Problem 6 (P7b Step 2 axiomatic derivation)—author-acknowledged
+5. μ calibration sourcing (partial: essay provides reasoning)
 
 ---
 
@@ -161,6 +161,7 @@ The work is a **serious theoretical contribution**. The physics is sound; the ec
 | `part_X.Y_analysis.md` | Per-part analysis (16 documents) |
 | `PROOF_STRUCTURE.md` | Logical chain and critical path |
 | `WEAK_POINTS.md` | Gaps, validation needs, citation checklist |
+| `WEAK_POINTS_VERIFICATION.md` | Deep-dive verification of weak points against original |
 | `COMPARISON_author_vs_analysis.md` | Author vs analysis alignment |
 | `plain-language/Part_1_The_Arena.md` | Plain-language Part 1 (cosmology, entropy, boundary rule) |
 | `plain-language/Part_2_The_Machine.md` | Plain-language Part 2 (assembly stock, Γ, ceiling, Landauer) |
