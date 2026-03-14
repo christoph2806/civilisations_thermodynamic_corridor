@@ -40,9 +40,9 @@ Civilisation has learned to tap extra gradients: fossil fuels (stored sunlight),
 
 Every watt we use—from any source—ends up as heat. That's not about fossil fuels or CO₂. It's the Second Law. Nuclear, wind, solar, fusion—all produce heat in the end. That heat has to be radiated to space from the top of the atmosphere. The rate at which we can radiate is set by the **Stefan–Boltzmann law**:
 
-**Power radiated = ε × σ × A × T⁴**
+$$P_{\mathrm{rad}} = \varepsilon \sigma A T^4$$
 
-where ε = emissivity (fraction of blackbody), σ = Stefan–Boltzmann constant, A = radiating area, T = temperature. If we add power P to the planet's energy balance, T must rise until radiation matches the new total. This is basic physics. It doesn't depend on which fuel we use, which technology, or which policy.
+where $\varepsilon$ = emissivity (fraction of blackbody), $\sigma$ = Stefan–Boltzmann constant, $A$ = radiating area, $T$ = temperature. If we add power P to the planet's energy balance, T must rise until radiation matches the new total. This is basic physics. It doesn't depend on which fuel we use, which technology, or which policy.
 
 ### The two constraints
 
@@ -65,9 +65,9 @@ Every thermodynamic argument starts by choosing a boundary: what counts as "the 
 
 For a system that exchanges energy and matter with its surroundings, the **entropy balance** is:
 
-**Change in entropy = entropy in − entropy out + entropy generated inside**
+$$\Delta S = S_{\mathrm{in}} - S_{\mathrm{out}} + S_{\mathrm{gen}}$$
 
-The Second Law says: **entropy generated inside ≥ 0**. It can't be negative. So a system can only reduce its own entropy by exporting more to the environment than it generates—by sending disorder outward.
+The Second Law says: $S_{\mathrm{gen}} \geq 0$. It can't be negative. So a system can only reduce its own entropy by exporting more to the environment than it generates—by sending disorder outward.
 
 ### Two different kinds of "waste"
 
@@ -85,9 +85,9 @@ Energy is conserved—the First Law. Earth gets energy from the Sun and radiates
 
 **Carnot limit:** For heat at temperature T_hot in an environment at T_cold, the maximum fraction convertible to work is:
 
-**W_max / Q = 1 − T_cold / T_hot**
+$$\frac{W_{\max}}{Q} = 1 - \frac{T_{\mathrm{cold}}}{T_{\mathrm{hot}}}$$
 
-(W_max = maximum work, Q = heat input, T_hot and T_cold = reservoir temperatures). The bigger the temperature difference, the more of the heat can become work. When T_hot = T_cold, exergy is zero—there's energy, but it can't do anything useful.
+($W_{\max}$ = maximum work, $Q$ = heat input, $T_{\mathrm{hot}}$ and $T_{\mathrm{cold}}$ = reservoir temperatures). The bigger the temperature difference, the more of the heat can become work. When T_hot = T_cold, exergy is zero—there's energy, but it can't do anything useful.
 
 Unlike energy, exergy is *destroyed* by every real process. Friction, mixing, heat transfer across temperature differences—all destroy exergy. A fundamental result (Gouy–Stodola) says: exergy destroyed = T × (entropy generated). So minimising entropy generation and minimising exergy destruction are the same thing.
 
@@ -110,12 +110,12 @@ This isn't arbitrary. It's the only boundary where the accounting is consistent.
 
 With the boundary fixed, heat rejection becomes a geometry problem. The Stefan–Boltzmann law again:
 
-**P_rad = εσAT⁴**
+$$P_{\mathrm{rad}} = \varepsilon \sigma A T^4$$
 
 At steady state, energy in = energy out:
 
-**P_sun + P_civilisation = εσAT⁴**
+$$P_{\odot} + P_{\mathrm{civ}} = \varepsilon \sigma A T^4$$
 
-(P_sun = absorbed solar flux, P_civilisation = our waste heat, ε = emissivity, σ = Stefan–Boltzmann constant, A = Earth's radiating area, T = equilibrium temperature). So if P_civilisation grows—as it has for two centuries—T must rise. The relation is nonlinear (T ∝ fourth root of power) but monotonic and fixed by physics. No technology, fuel, or policy changes it. Efficiency gains don't remove it, because the waste heat comes from power use itself.
+($P_{\odot}$ = absorbed solar flux, $P_{\mathrm{civ}}$ = our waste heat, $\varepsilon$ = emissivity, $\sigma$ = Stefan–Boltzmann constant, $A$ = Earth's radiating area, $T$ = equilibrium temperature). So if P_civilisation grows—as it has for two centuries—T must rise. The relation is nonlinear (T ∝ fourth root of power) but monotonic and fixed by physics. No technology, fuel, or policy changes it. Efficiency gains don't remove it, because the waste heat comes from power use itself.
 
 **The cage:** Earth has a fixed radiating area. Emissivity is set by the atmosphere. The only free variable is temperature—and that's what determines habitability. Civilisation sits between a source it can choose (solar, nuclear, fossil) and a sink it cannot. The source sets how much usable energy we can access. The sink sets how much total power we can dissipate before the planet becomes uninhabitable. The gap between these—and how fast we're closing it—is what this essay is about.

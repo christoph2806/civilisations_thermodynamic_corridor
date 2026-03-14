@@ -29,7 +29,7 @@ Biodiversity loss, soil degradation, freshwater depletion, nutrient disruption n
 
 ### The financial solvency constraint
 
-**Y ≥ (r + δ)·W** must hold for virtual wealth to remain redeemable against real wealth. Here Y = annual economic output, r = real interest rate, δ = physical decay rate of assembly, W = accumulated wealth (monetary proxy for Σ). Decision window: decades to a century. Constraint bite: when solvency raises the minimum viable growth rate above zero, forcing the trajectory toward the ceiling.
+$$Y \geq (r + \delta) \cdot W$$ must hold for virtual wealth to remain redeemable against real wealth. Here $Y$ = annual economic output, $r$ = real interest rate, $\delta$ = physical decay rate of assembly, $W$ = accumulated wealth (monetary proxy for $\Sigma$). Decision window: decades to a century. Constraint bite: when solvency raises the minimum viable growth rate above zero, forcing the trajectory toward the ceiling.
 
 **Entirely compliant:** δ (the decay rate) is physics—the Second Law operating on assembled matter. r (the interest rate) is convention—a rule humans invented. A civilisation that restructured its monetary architecture could eliminate r from the inequality, leaving only Y ≥ δ·W (output must at least match the thermodynamic decay of existing stock)—the thermodynamic minimum. Eliminating r substantially widens the viable corridor.
 
@@ -43,9 +43,9 @@ Biodiversity loss, soil degradation, freshwater depletion, nutrient disruption n
 
 ### The waste heat ceiling
 
-**Σ_max = (εσ A T_hab⁴ − P_☉) / Γ**
+$$\Sigma_{\max} = \frac{\varepsilon\sigma A T_{\mathrm{hab}}^4 - P_{\odot}}{\Gamma}$$
 
-where ε = effective emissivity, σ = Stefan–Boltzmann constant, A = radiating area, T_hab = habitability temperature limit, P_☉ = absorbed solar flux, Γ = power per unit assembly. Set by Stefan–Boltzmann on a finite radiating surface. Tier 1. Fixed. Expandable only by increasing A beyond the planet.
+where $\varepsilon$ = effective emissivity, $\sigma$ = Stefan–Boltzmann constant, $A$ = radiating area, $T_{\mathrm{hab}}$ = habitability temperature limit, $P_{\odot}$ = absorbed solar flux, $\Gamma$ = power per unit assembly. Set by Stefan–Boltzmann on a finite radiating surface. Tier 1. Fixed. Expandable only by increasing A beyond the planet.
 
 ---
 
@@ -61,7 +61,7 @@ Standard climate-economy models (Nordhaus DICE, Stern) treat the civilisational 
 
 ### The formal structure
 
-In formal terms, the civilisation's state x(t)—a vector of assembly stock, temperature, reserves, debt—evolves according to dynamics **dx/dt ∈ F(x,u)**. Here u is the control: the levers civilisation can pull (monetary policy, fiscal policy, energy mix, allocation decisions). The dynamics F describe how the state changes given the current state and the control applied.
+In formal terms, the civilisation's state x(t)—a vector of assembly stock, temperature, reserves, debt—evolves according to dynamics $\frac{dx}{dt} \in F(x,u)$. Here u is the control: the levers civilisation can pull (monetary policy, fiscal policy, energy mix, allocation decisions). The dynamics F describe how the state changes given the current state and the control applied.
 
 **Constraint set K:** Define K as the set of all states that satisfy the survival constraints: temperature below habitability limit, assembly above minimum viable level, and so on. States outside K are non-viable by definition—they violate at least one constraint.
 
@@ -75,9 +75,9 @@ In formal terms, the civilisation's state x(t)—a vector of assembly stock, tem
 
 To apply this to civilisation, the state must be specified. The essay uses a four-dimensional state vector:
 
-**x = (Σ, T_eq, E_res, D)**
+$$x = (\Sigma, T_{\mathrm{eq}}, E_{\mathrm{res}}, D)$$
 
-- **Σ (assembly stock):** Total assembled matter maintained by civilisation. Its dynamics are dΣ/dt = C(t) − δΣ: construction C adds, decay δ subtracts. Maintenance power P = Γ·Σ (power scales with stock).
+- **$\Sigma$ (assembly stock):** Total assembled matter maintained by civilisation. Its dynamics are $\frac{d\Sigma}{dt} = C(t) - \delta\Sigma$: construction $C$ adds, decay $\delta$ subtracts. Maintenance power $P = \Gamma\cdot\Sigma$ (power scales with stock).
 
 - **T_eq (planetary equilibrium temperature):** Set by the Stefan–Boltzmann balance. Responds to waste heat with thermal inertia (the ocean heats and cools slowly).
 
@@ -95,17 +95,17 @@ The constraint set K is the intersection of all survival constraints. The three-
 
 **Tier 2 (evolutionary dynamics):** The Lotka attractor (trajectory biased toward maximum power) and Jevons recycling (efficiency gains expand demand). These bias the dynamics within the geometry defined by Tier 1. They do not create hard boundaries in the same way, but overriding them has no precedent at civilisational scale.
 
-**Tier 3 (human conventions):** Debt growth floor Y ≥ (r+δ)W; governance frequency mismatch. Real and binding today, but reformable. Y = output, r = interest rate, δ = decay rate, W = wealth.
+**Tier 3 (human conventions):** Debt growth floor $Y \geq (r+\delta)W$; governance frequency mismatch. Real and binding today, but reformable. $Y$ = output, $r$ = interest rate, $\delta$ = decay rate, $W$ = wealth.
 
 ### The two-dimensional worked example
 
 The full four-dimensional state space is not tractable in closed form. The essay reduces to two dimensions—assembly stock Σ and temperature T—to exhibit the core mechanism: how the coupling between assembly growth and thermal loading shapes the viability kernel.
 
-**Dynamics:** Assembly evolves as dΣ/dt = C(t) − δΣ. Temperature evolves as C_th·dT/dt = P_☉ + Γ·Σ − εσ A T⁴: solar input plus civilisational waste heat (Γ·Σ) minus radiative losses. The coupling is through Γ·Σ: more assembly means more power, more power means more waste heat, more waste heat means higher temperature.
+**Dynamics:** Assembly evolves as $\frac{d\Sigma}{dt} = C(t) - \delta\Sigma$. Temperature evolves as $C_{\mathrm{th}}\frac{dT}{dt} = P_{\odot} + \Gamma\cdot\Sigma - \varepsilon\sigma A T^4$: solar input plus civilisational waste heat ($\Gamma\cdot\Sigma$) minus radiative losses. The coupling is through $\Gamma\cdot\Sigma$: more assembly means more power, more power means more waste heat, more waste heat means higher temperature.
 
-**Constraint set:** K = {(Σ,T) | Σ ≥ Σ_min and T ≤ T_max}. A rectangular region: a vertical wall on the left (minimum viable civilisation), a horizontal ceiling above (habitability limit). Everything below and to the right is admissible. Everything above or to the left is lethal.
+**Constraint set:** $K = \{(\Sigma,T) \mid \Sigma \geq \Sigma_{\min} \wedge T \leq T_{\max}\}$. A rectangular region: a vertical wall on the left (minimum viable civilisation), a horizontal ceiling above (habitability limit). Everything below and to the right is admissible. Everything above or to the left is lethal.
 
-**Steady-state locus:** If construction exactly balances decay (C = δΣ), assembly is constant. If radiation exactly balances input, temperature is constant. The curve T*(Σ) = (P_☉ + Γ·Σ)/(εσA))^(1/4) gives the equilibrium temperature for each assembly stock. It rises monotonically: more assembly → more waste heat → higher temperature. This curve intersects the ceiling T_max at Σ_max, the maximum steady-state assembly stock.
+**Steady-state locus:** If construction exactly balances decay (C = δΣ), assembly is constant. If radiation exactly balances input, temperature is constant. The curve $T^*(\Sigma) = \left(\frac{P_{\odot} + \Gamma\cdot\Sigma}{\varepsilon\sigma A}\right)^{1/4}$ gives the equilibrium temperature for each assembly stock. It rises monotonically: more assembly → more waste heat → higher temperature. This curve intersects the ceiling $T_{\max}$ at $\Sigma_{\max}$, the maximum steady-state assembly stock.
 
 **Key result—the viability boundary is inside the ceiling:** The viability kernel boundary is *not* the vertical line Σ = Σ_max. It is a curve Σ_crit(T) that lies strictly to the left of Σ_max for all T < T_max. Why? Because of thermal inertia. Assembly decays slowly (time constant ~50 years). Temperature responds slowly (~30 years). Suppose civilisation is at a state with Σ large enough that the equilibrium temperature T*(Σ) would exceed T_max. Even if we apply maximum braking—cease all construction, let Σ decay—the temperature keeps rising for a while as the heat already in the system works its way through the ocean. The system heats up faster than it can shed mass. By the time Σ has decayed enough to reduce the equilibrium temperature, T may already have exceeded T_max. So states with Σ large enough that T*(Σ) > T_max are outside the viability kernel even though they are below the ceiling today. They are in the zone of false security.
 
@@ -117,7 +117,7 @@ The constraint set K is not fixed. It evolves. Greenhouse gas accumulation reduc
 
 ### The braking boundary
 
-The analysis can be made quantitative. Under maximum braking (C = 0), assembly decays exponentially as Σ(t) = Σ₀ e^(−δt). The temperature response to this decaying source has an exact solution (a linearised ODE). The *braking boundary* Σ_phys*(T) is the maximum assembly stock from which maximum braking—the most aggressive physically possible deceleration—keeps the trajectory below the habitability threshold T_hab. States with Σ > Σ_phys* are outside the physical viability kernel.
+The analysis can be made quantitative. Under maximum braking (C = 0), assembly decays exponentially as $\Sigma(t) = \Sigma_0 e^{-\delta t}$. The temperature response to this decaying source has an exact solution (a linearised ODE). The *braking boundary* Σ_phys*(T) is the maximum assembly stock from which maximum braking—the most aggressive physically possible deceleration—keeps the trajectory below the habitability threshold T_hab. States with Σ > Σ_phys* are outside the physical viability kernel.
 
 **Properties:** (1) Σ_phys* lies strictly inside Σ_max—the naive ceiling. The gap is the physical false-security zone. (2) The gap widens as the ratio τ_T/τ_Σ increases: when the planet radiates slowly relative to the rate at which assembly decays, the overshoot is worse. (3) The gap narrows as temperature approaches T_hab: when the thermal budget is nearly exhausted, even a small overshoot triggers exceedance.
 
@@ -129,7 +129,7 @@ If institutions impose a minimum construction rate C_min > 0—because debt serv
 
 ### Solvency-constrained controls
 
-**U_adm(Σ,D) = {u | Y(u,Σ) ≥ rD + δW}**
+$$U_{\mathrm{adm}}(\Sigma,D) = \{u \mid Y(u,\Sigma) \geq rD + \delta W\}$$
 
 The admissible control set is restricted to those controls for which output Y covers both debt service rD (r = interest rate, D = debt stock) and maintenance δW (δ = decay rate, W = wealth). Any control that fails this condition leads to insolvency, credit contraction, and cascading loss of maintenance capacity.
 
@@ -177,9 +177,9 @@ The lemma is foundational. Without it, the competitive argument has no mechanism
 
 ### Gradient saturation
 
-**T3 (Gradient saturation):** Any configuration that persists dynamically—that survives recurring perturbations—satisfies **Σ P_i = P_total**. Unused gradient is unstable. Suppose Σ P_i < P_total, leaving surplus ΔP > 0. Any agent that expands into the surplus gains more power, hence a larger kernel (L1), hence higher survival probability (L2). Non-expanding agents are eliminated (P4). The only persistent configurations are those that saturate the gradient.
+**T3 (Gradient saturation):** Any configuration that persists dynamically—that survives recurring perturbations—satisfies $\sum_i P_i = P_{\mathrm{total}}$. Unused gradient is unstable. Suppose $\sum_i P_i < P_{\mathrm{total}}$, leaving surplus ΔP > 0. Any agent that expands into the surplus gains more power, hence a larger kernel (L1), hence higher survival probability (L2). Non-expanding agents are eliminated (P4). The only persistent configurations are those that saturate the gradient.
 
-**T4 (Below-saturation transience):** Configurations with Σ P_i < P_total are transient. The expected time to saturation or elimination of non-expanders is finite. The convergence timescale is decades to a century—short relative to civilisational decision windows. Gradient saturation is not a distant asymptotic; it operates within planning horizons.
+**T4 (Below-saturation transience):** Configurations with $\sum_i P_i < P_{\mathrm{total}}$ are transient. The expected time to saturation or elimination of non-expanders is finite. The convergence timescale is decades to a century—short relative to civilisational decision windows. Gradient saturation is not a distant asymptotic; it operates within planning horizons.
 
 ### Corollaries
 
@@ -189,7 +189,7 @@ The lemma is foundational. Without it, the competitive argument has no mechanism
 
 **C3 (Garrett's stable Γ):** At equilibrium, the aggregate coupling between power and accumulated structure should be approximately stable. This is what the empirical record confirms: λ ≈ 5.9 mW per 2019 US dollar, roughly constant 1970–2019. The stability is not a coincidence; it is the expected signature of a system at or near gradient saturation.
 
-**C4 (Landscape dependence):** Gradient saturation (Σ P_i = P_total) is structural—Tier 2. The *location* of the attractor—which value of Γ the system converges to—depends on the institutional landscape (Tier 3). Hanley's pre-1970 instability confirms: the attractor shifted when Bretton Woods collapsed. The biosphere demonstrates that low-Γ equilibria exist (biology maintains vastly more assembly per watt than the technosphere). The task is to redesign the landscape so competition converges there.
+**C4 (Landscape dependence):** Gradient saturation ($\sum_i P_i = P_{\mathrm{total}}$) is structural—Tier 2. The *location* of the attractor—which value of Γ the system converges to—depends on the institutional landscape (Tier 3). Hanley's pre-1970 instability confirms: the attractor shifted when Bretton Woods collapsed. The biosphere demonstrates that low-Γ equilibria exist (biology maintains vastly more assembly per watt than the technosphere). The task is to redesign the landscape so competition converges there.
 
 ### Scope and limitations
 

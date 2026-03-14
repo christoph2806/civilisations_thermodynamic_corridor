@@ -17,7 +17,7 @@ Fermi (1950): Given the galaxy's age and size, it should be saturated with techn
 
 Three results depend on nothing but thermodynamics:
 
-1. **Maintenance obligation:** Any civilisation is assembled matter. P_maint ≥ (δξ/η)·Σ (δ = decay rate, ξ = exergy cost per repair, η = efficiency, Σ = assembly stock). Silicon-based or carbon-based—the direction is absolute.
+1. **Maintenance obligation:** Any civilisation is assembled matter. $P_{\mathrm{maint}} \geq (\delta\xi/\eta)\cdot\Sigma$ ($\delta$ = decay rate, $\xi$ = exergy cost per repair, $\eta$ = efficiency, $\Sigma$ = assembly stock). Silicon-based or carbon-based—the direction is absolute.
 
 2. **Waste heat ceiling:** Every watt is dissipated as heat from a finite surface. Σ_max exists for any planet with fixed radiating area.
 
@@ -33,7 +33,7 @@ Debt, endogenous money, short governance timescales—these accelerate the appro
 
 ### The thermal filter: timescales
 
-**n = log₂(P_ceiling/P₀)** doublings to the ceiling (P₀ = current power, P_ceiling = maximum sustainable). For Earth: P₀ ≈ 18 TW, P_ceiling ≈ 1,200 TW (1% of solar) → n ≈ 6. At 2.3%/year (t_double ≈ 30 years) → ~180 years. At 1% → ~430 years. Balbi & Lingam: habitable loss within ~1,000 years at 1% growth.
+$n = \log_2(P_{\mathrm{ceiling}}/P_0)$ doublings to the ceiling ($P_0$ = current power, $P_{\mathrm{ceiling}}$ = maximum sustainable). For Earth: P₀ ≈ 18 TW, P_ceiling ≈ 1,200 TW (1% of solar) → n ≈ 6. At 2.3%/year (t_double ≈ 30 years) → ~180 years. At 1% → ~430 years. Balbi & Lingam: habitable loss within ~1,000 years at 1% growth.
 
 **The gap:** The galaxy is ~13.6 billion years old. Civilisations that grow exponentially die in hundreds of years—too quickly to be noticed.
 
@@ -41,7 +41,7 @@ Debt, endogenous money, short governance timescales—these accelerate the appro
 
 **Dyson swarms:** The luminosity bottleneck. Disassembling Mercury requires waste heat radiated from Mercury's surface. At 700 K, extraction rate limits disassembly to ~57,000 years. At 3,000 K (refractory limits): ~170 years. Constructing a full swarm within a 200–300 year habitability window demands robotic mining at temperatures near material limits.
 
-**The maintenance trap:** Space structures degrade—micrometeorites, solar wind, thermal cycling. P_maint ≥ δΣ (δ = decay rate, Σ = assembly stock) applies at megastructure scale. At 1% annual degradation, replacement demands ~3,300 K surface temperatures. The swarm is not a cornucopia; it's dissipative structure with the same maintenance obligation.
+**The maintenance trap:** Space structures degrade—micrometeorites, solar wind, thermal cycling. $P_{\mathrm{maint}} \geq \delta\Sigma$ ($\delta$ = decay rate, $\Sigma$ = assembly stock) applies at megastructure scale. At 1% annual degradation, replacement demands ~3,300 K surface temperatures. The swarm is not a cornucopia; it's dissipative structure with the same maintenance obligation.
 
 **The bootstrap trap:** Civilisation cannot pause growth while bootstrapping. Competitive equilibrium ensures agents that grow outcompete. Growth funds the transition but generates the waste heat that closes the window. Murphy: "Unless a civilisation moves to space it cannot expand without seriously heating its home world"—restating the problem.
 
@@ -68,7 +68,7 @@ The essay distinguishes two directions a civilisation can take. **Nostos** (from
 
 ### The eight-parameter control surface
 
-**Σ_max = (εσ A T_hab⁴ − P_☉) / Γ**, with Γ = μδξ/η_II (μ = metabolic multiplier, δ = decay rate, ξ = exergy cost, η_II = Second Law efficiency)
+$$\Sigma_{\max} = \frac{\varepsilon\sigma A T_{\mathrm{hab}}^4 - P_{\odot}}{\Gamma}$$ with $\Gamma = \mu\delta\xi/\eta_{\mathrm{II}}$ ($\mu$ = metabolic multiplier, $\delta$ = decay rate, $\xi$ = exergy cost, $\eta_{\mathrm{II}}$ = Second Law efficiency)
 
 Eight parameters with real operability:
 
@@ -176,9 +176,9 @@ The analysis has measured civilisational scale by the assembly stock Σ. That va
 
 The correct object of valuation is the contribution of the civilisational trajectory to the continuation and depth of viable futures. Among the class of formally tractable specifications, the most natural is the expected integral of maintained assembly over time, subject to viability:
 
-**V(x₀) = sup E[∫₀^τ_K m(x_t,u_t) dt]**
+$$V(x_0) = \sup_{u(\cdot)} \mathbb{E}\left[\int_0^{\tau_K} m(x_t, u_t) \, dt\right]$$
 
-where x = state vector, u = control trajectory, τ_K = first exit time from the viability kernel K, m = maintained service rate. Lexicographic: remain inside the kernel first (survival is the hard constraint); among viable trajectories, maximise maintained stock-years. Collapse trajectories are strictly dominated. Under this objective, growth remains desirable wherever it increases the integral—wherever it adds to the reachable future of maintained assembly without pushing the trajectory toward the kernel boundary. The objective is not "less." It is "more, durably."
+where $x$ = state vector, $u$ = control trajectory, $\tau_K$ = first exit time from the viability kernel $K$, $m$ = maintained service rate. Lexicographic: remain inside the kernel first (survival is the hard constraint); among viable trajectories, maximise maintained stock-years. Collapse trajectories are strictly dominated. Under this objective, growth remains desirable wherever it increases the integral—wherever it adds to the reachable future of maintained assembly without pushing the trajectory toward the kernel boundary. The objective is not "less." It is "more, durably."
 
 ### The quantitative position
 

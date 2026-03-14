@@ -19,7 +19,7 @@ Part 3 gives three mechanisms, ordered by how "hard" they are—how deeply embed
 
 In 1922, Alfred Lotka observed something that has never been refuted: natural selection favours systems that maximise *throughput*—the rate at which energy is captured and dissipated—not thermodynamic efficiency.
 
-**The trade-off:** A Carnot engine achieves maximum efficiency only when it runs infinitely slowly (zero power). Real engines trade efficiency for speed. The Curzon–Ahlborn efficiency η_CA = 1 − √(T_C/T_H) is always less than Carnot, but it maximises *power output*. The engine wastes more per cycle but does more work per second. Selection acts on time, not perfection.
+**The trade-off:** A Carnot engine achieves maximum efficiency only when it runs infinitely slowly (zero power). Real engines trade efficiency for speed. The Curzon–Ahlborn efficiency $\eta_{\mathrm{CA}} = 1 - \sqrt{T_C/T_H}$ is always less than Carnot, but it maximises *power output*. The engine wastes more per cycle but does more work per second. Selection acts on time, not perfection.
 
 **The pattern:** An organism that captures energy faster, even at lower efficiency, reproduces faster and outcompetes rivals. A firm that turns capital into revenue faster outgrows careful competitors. A nation that industrialises faster dominates. The pressure is universal: organisms, ecosystems, firms, nations, civilisations. All favour maximum power, not maximum efficiency.
 
@@ -33,9 +33,9 @@ The essay doesn't import maximum power as an axiom. It treats the observed patte
 
 ### Garrett's stable ratio: the empirical signature
 
-The competitive equilibrium predicts a stable coupling between power P and assembly stock Σ. Garrett's data (1970–2019) show exactly that: **P ≈ λW**, with λ ≈ 5.9 mW per 2019 US dollar (λ = power per dollar of wealth, W = accumulated wealth), remarkably constant across five decades.
+The competitive equilibrium predicts a stable coupling between power P and assembly stock Σ. Garrett's data (1970–2019) show exactly that: $P \approx \lambda W$, with $\lambda \approx 5.9$ mW per 2019 US dollar ($\lambda$ = power per dollar of wealth, $W$ = accumulated wealth), remarkably constant across five decades.
 
-**Interpretation:** Γ(t) = P/Σ (power per unit assembly) sits at a competitive equilibrium. Any civilisation that tried to sustain more assembly per watt (lower Γ) would grow more slowly and be outcompeted. The ratio has converged to the value that maximises expansion rate.
+**Interpretation:** $\Gamma(t) = P/\Sigma$ (power per unit assembly) sits at a competitive equilibrium. Any civilisation that tried to sustain more assembly per watt (lower Γ) would grow more slowly and be outcompeted. The ratio has converged to the value that maximises expansion rate.
 
 **The Jevons connection:** Efficiency gains raise productivity α (output Y per unit wealth W). Among competing agents, higher α means faster growth. But the surplus doesn't reduce P—it increases W. And since P = Γ·Σ (power = coupling × assembly), more W means more P. Efficiency gains are recycled into growth. The system absorbs them like an ecosystem absorbs a nutrient pulse: by growing until the new resource is fully exploited.
 
@@ -53,10 +53,10 @@ Hanley (2025) found that the P/W ratio was *not* stable before ~1970. It shifted
 
 **Policy implication:** Energy taxes, caps, efficiency mandates can redirect *which* sectors grow. They cannot suppress the aggregate effect without solving the Tier 2 coordination problem.
 
-**The math:** From P = Γ·Σ and α = Y/W (Y = output, W = wealth):
-**dP/dt = (α − δ)P**
+**The math:** From $P = \Gamma\cdot\Sigma$ and $\alpha = Y/W$ ($Y$ = output, $W$ = wealth):
+$$\frac{dP}{dt} = (\alpha - \delta)P$$
 
-where δ = decay rate. Efficiency gain → higher α → faster growth of P. Not 10–30% rebound. Structural backfire embedded in the dynamics.
+where $\delta$ = decay rate. Efficiency gain → higher α → faster growth of P. Not 10–30% rebound. Structural backfire embedded in the dynamics.
 
 ### The empirical record
 
@@ -103,17 +103,17 @@ Suppose civilisation somehow overrode the evolutionary ratchet and collectively 
 
 The assembly stock Σ is not a flow. It's a *stock*—an integral of all past construction, discounted by decay:
 
-**Σ(t) = Σ₀ e^(−δt) + ∫ C(τ) e^(−δ(t−τ)) dτ**
+$$\Sigma(t) = \Sigma_0 e^{-\delta t} + \int_0^t C(\tau) e^{-\delta(t-\tau)} \, d\tau$$
 
-Every road, hospital, power line, server built in the past contributes to today's Σ. Recent construction contributes almost fully; ancient construction only insofar as it's been maintained (ship of Theseus). The time constant is τ_δ = 1/δ ≈ 50–100 years.
+Every road, hospital, power line, server built in the past contributes to today's Σ. Recent construction contributes almost fully; ancient construction only insofar as it's been maintained (ship of Theseus). The time constant is $\tau_\delta = 1/\delta \approx 50$–100 years.
 
 **Consequence:** Σ cannot be instantaneously redirected. The viability kernel is *path-dependent*. A civilisation deep inside the kernel has many admissible trajectories. One near the boundary has few. The integral constrains how fast we can move through state space.
 
-**Garrett's "long arm of history":** Today's power demand is set not by today's production but by the integral of all past production. W(t) = ∫ Y(τ) dτ (W = cumulative wealth, Y = annual output). The ratio W/Y ≈ 43 years. Civilisation's thermodynamic character changes on timescales of 50–100 years—generations, not electoral cycles.
+**Garrett's "long arm of history":** Today's power demand is set not by today's production but by the integral of all past production. $W(t) = \int Y(\tau)\, d\tau$ ($W$ = cumulative wealth, $Y$ = annual output). The ratio W/Y ≈ 43 years. Civilisation's thermodynamic character changes on timescales of 50–100 years—generations, not electoral cycles.
 
 ### Limiting cases
 
-**Zero net construction (C = δΣ):** Steady state. C = construction rate, δ = decay rate, Σ = assembly stock. No new roads, factories, networks—only replacement. Power demand P = Γ·Σ (Γ = power per unit assembly) stays at current level *indefinitely*. Steady state is not low energy. It's current energy sustained forever. If we're already on a trajectory toward the ceiling, steady state merely converts exponential approach to asymptotic. The ceiling is still there.
+**Zero net construction ($C = \delta\Sigma$):** Steady state. $C$ = construction rate, $\delta$ = decay rate, $\Sigma$ = assembly stock. No new roads, factories, networks—only replacement. Power demand $P = \Gamma\cdot\Sigma$ ($\Gamma$ = power per unit assembly) stays at current level *indefinitely*. Steady state is not low energy. It's current energy sustained forever. If we're already on a trajectory toward the ceiling, steady state merely converts exponential approach to asymptotic. The ceiling is still there.
 
 **Zero production (C = 0):** Theoretically, Σ would decay exponentially. At δ ≈ 2%/year, the stock halves in ~35 years. After a decade of zero production, >80% of original P persists. In practice, zero production means cascading failure—no food, water, electricity. Historical collapses (Roman Empire, Black Death, Soviet dissolution) saw energy fall because structure was dismantled or depopulated, not by choice.
 
@@ -135,8 +135,8 @@ Different components decay at different rates: Roman aqueducts (millennia), indu
 
 ### Time constants vs control timescales
 
-- **Assembly stock:** τ_δ = 1/δ ≈ 50–100 years (δ = decay rate)
-- **Wealth integral:** τ ≈ W/Y ≈ 43 years (W = wealth, Y = output)
+- **Assembly stock:** $\tau_\delta = 1/\delta \approx 50$–100 years ($\delta$ = decay rate)
+- **Wealth integral:** $\tau \approx W/Y \approx 43$ years ($W$ = wealth, $Y$ = output)
 - **Atmospheric CO₂:** centuries
 - **Ocean thermal mass:** decades to centuries
 
@@ -160,19 +160,19 @@ This section depends on *nothing* from physics. Debt has been forgiven throughou
 
 ### The temporal pump: endogenous money creation
 
-Banks don't intermediate between savers and borrowers. When a bank makes a loan, it *creates* new money (Bank of England 2014). The borrower gets purchasing power that didn't exist. That power commands labour and materials—exergy—to build new structure. Each loan adds to Σ and commits future power ΔP = Γ·ΔΣ.
+Banks don't intermediate between savers and borrowers. When a bank makes a loan, it *creates* new money (Bank of England 2014). The borrower gets purchasing power that didn't exist. That power commands labour and materials—exergy—to build new structure. Each loan adds to $\Sigma$ and commits future power $\Delta P = \Gamma\cdot\Delta\Sigma$.
 
-**The obligation:** The borrower must repay L·(1+r)ⁿ (L = loan principal, r = interest rate, n = maturity in years). Repayment requires future economic output Y, which requires energy. Credit creation *pulls exergy from the future into the present*. It's extraordinarily useful—it finances long-gestation projects no one could fund from savings. But each loan bets that the future will be larger, in energetic terms, than the present. When that bet fails at scale, the result is thermodynamic: claims on energy that doesn't exist.
+**The obligation:** The borrower must repay $L(1+r)^n$ ($L$ = loan principal, $r$ = interest rate, $n$ = maturity in years). Repayment requires future economic output Y, which requires energy. Credit creation *pulls exergy from the future into the present*. It's extraordinarily useful—it finances long-gestation projects no one could fund from savings. But each loan bets that the future will be larger, in energetic terms, than the present. When that bet fails at scale, the result is thermodynamic: claims on energy that doesn't exist.
 
 **Soddy (1926):** "Debts are subject to the laws of mathematics rather than physics. Unlike wealth, which decays, debts grow at so much per cent per annum." Real wealth (Σ, assembly stock) decays at δ (decay rate). Virtual wealth (debt) has no friction. The two are yoked by the assumption that claims can always be redeemed against physical assets. When they can't: inflation, default, or crisis.
 
 ### The growth floor: compound interest
 
-Debt grows: **dD/dt = r·D** (r = real interest rate, D = debt stock). At 3% real interest, doubling time ~23 years. For solvency, the physical economy must grow at least as fast as financial claims:
+Debt grows: $\frac{dD}{dt} = r \cdot D$ ($r$ = real interest rate, $D$ = debt stock). At 3% real interest, doubling time ~23 years. For solvency, the physical economy must grow at least as fast as financial claims:
 
-**Y ≥ (r + δ)·W**
+$$Y \geq (r + \delta) \cdot W$$
 
-(Y = output, r = interest rate, δ = decay rate, W = wealth). Output must cover both debt service and maintenance of existing stock.
+($Y$ = output, $r$ = interest rate, $\delta$ = decay rate, $W$ = wealth). Output must cover both debt service and maintenance of existing stock.
 
 **Critical distinction:** δ (the decay rate) is Tier 1 (physics). No one can repeal the Second Law. r (the interest rate) is Tier 3 (convention). Debt can be forgiven. Interest can be zero (Japan) or negative (ECB). The solvency condition nests a reformable convention inside an immutable law.
 
@@ -202,7 +202,7 @@ Hyman Minsky: credit markets cycle through hedge finance (income covers interest
 
 ### The empirical signature: Garrett and Hanley
 
-Garrett's P ≈ λW held ~constant 1970–2019 across information revolution, China's rise, Soviet collapse, 2008 crisis, shale gas, renewables. The financial architecture enforces the ratio: when P falls below debt-service needs, Minsky correction; when P rises above, credit creation raises Σ and re-establishes the ratio at higher level. The system oscillates around the attractor.
+Garrett's $P \approx \lambda W$ held ~constant 1970–2019 across information revolution, China's rise, Soviet collapse, 2008 crisis, shale gas, renewables. The financial architecture enforces the ratio: when P falls below debt-service needs, Minsky correction; when P rises above, credit creation raises Σ and re-establishes the ratio at higher level. The system oscillates around the attractor.
 
 **Hanley (2025):** The ratio *diverged* before ~1970. It converged to current values around the Bretton Woods collapse (1971). That's when the global financial system became integrated enough to enforce a uniform growth compulsion worldwide. Removing the gold constraint let endogenous money operate at full scale. From then on, the financial amplifier was fully engaged. The composite Γ stabilised not because physics changed, but because institutions locked the components into a self-reinforcing regime.
 
