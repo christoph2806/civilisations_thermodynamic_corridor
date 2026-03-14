@@ -11,48 +11,56 @@
 
 Fermi (1950): Given the galaxy's age and size, it should be saturated with technological civilisations. "Where is everybody?" Hanson (1998): If the galaxy appears empty, there must be a Great Filter—a step of extraordinarily low probability—somewhere between habitable planet and galaxy-spanning civilisation. The question: past (our existence is improbable) or future (our survival is improbable)?
 
-**This essay's resolution:** The thermodynamic predicament is not an accident of history. It is a consequence of physics that applies to any civilisation, anywhere, any chemistry, any governance.
+**This essay's resolution:** The thermodynamic predicament is not an accident of history. It is a consequence of physics that applies to any civilisation, anywhere, any chemistry, any governance. If we accept that a Great Filter must exist (this is debated), and the fact that we exist entails that our survival is improbable, then the Great Filter may be exactly the thermodynamic system explored in Parts 1–4: the maintenance obligation, the waste heat ceiling, and the competitive dynamics that drive civilisations toward the wall. The galaxy may be silent because civilisations that grow exponentially hit the ceiling in centuries—too quickly to be noticed. 
 
 ### Tier 1: Universal physics
 
 Three results depend on nothing but thermodynamics:
 
-1. **Maintenance obligation:** Any civilisation is assembled matter. $P_{\mathrm{maint}} \geq (\delta\xi/\eta)\cdot\Sigma$ ($\delta$ = decay rate, $\xi$ = exergy cost per repair, $\eta$ = efficiency, $\Sigma$ = assembly stock). Silicon-based or carbon-based—the direction is absolute.
+1. **Maintenance obligation:** Any civilisation is assembled matter. From Part 2: assembled structure decays at rate $\delta$; restoring each assembly-step costs exergy $\xi$; real processes achieve efficiency $\eta < 1$. Hence $P_{\mathrm{maint}} \geq (\delta\xi/\eta)\cdot\Sigma$. Silicon-based or carbon-based—the direction is absolute. The consequence: civilisation cannot "pause" or run in standby; decay runs continuously. Growth creates its own overhead; collapse occurs when maintenance falls below $\delta\Sigma$.
 
-2. **Waste heat ceiling:** Every watt is dissipated as heat from a finite surface. $\Sigma_{\max}$ exists for any planet with fixed radiating area.
+2. **Waste heat ceiling:** Every watt is dissipated as heat from a finite surface. $\Sigma_{\max}$ exists for any planet with fixed radiating area. For us: Earth has a fixed radiating area. As total power grows, equilibrium temperature rises (Stefan–Boltzmann). There is a maximum power we can dissipate before the planet becomes uninhabitable. That ceiling is technology-independent—it applies regardless of fuel or efficiency.
 
-3. **Landauer floor:** Irreversible computation dissipates $\geq k_{\mathrm{B}} T \ln 2$ per bit. Detectable civilisations process enormous information—irreducible energy cost.
+3. **Landauer floor:** Irreversible computation dissipates $\geq k_{\mathrm{B}} T \ln 2$ per bit. Detectable civilisations process enormous information—irreducible energy cost. The problem: any civilisation advanced enough to be observable (radio, megastructures, Dyson swarms) must process vast amounts of information. That processing has a minimum energy cost per bit. There is no "dematerialisation" escape: the information economy does not decouple from the power–assembly coupling. Efficiency gains are recycled into more computation (Jevons). 
 
 ### Tier 2: Universal dynamics
 
-Competitive viability (§4.3): N agents on a shared gradient $\to \sum_i P_i = P_{\mathrm{total}}$ at equilibrium. Gradient saturation is derived, not assumed. Jevons, competitive exclusion, stable $\Gamma$ follow. Overriding requires cooperative solution with no precedent. The geometric persistence principle makes this independent of alien biology or cognition.
+**The shared gradient:** The waste heat ceiling sets a finite total power budget $P_{\mathrm{total}}$—the maximum sustainable dissipation from a planetary surface. Multiple agents (firms, nations, technologies, species) compete for shares of this budget. The gradient is "shared" because the sum of all agents' power cannot exceed $P_{\mathrm{total}}$.
+
+**Gradient saturation:** Part 4.3 derives that at equilibrium, $\sum_i P_i = P_{\mathrm{total}}$. The gradient is fully used. Unused capacity is unstable: any agent that expands into surplus gains a larger viability kernel and outcompetes non-expanders. This is not assumed—it follows from the viability geometry under competitive allocation.
+
+**Consequences:** Jevons (efficiency gains recycled into growth), competitive exclusion (below-frontier agents eliminated), stable $\Gamma$ (the power–assembly coupling sits at a Nash equilibrium). Overriding requires a cooperative solution with no precedent at civilisational scale. The geometric persistence principle makes this independent of alien biology or cognition: bacteria don't compute their viability kernels; they persist when their viable range is wider.
 
 ### Tier 3: Contingent amplifiers
 
-Debt, endogenous money, short governance timescales—these accelerate the approach. They are not universal. But the trajectory exists without them. Debt makes it worse and faster; it doesn't create it.
+Debt, endogenous money, short governance timescales—these accelerate the approach. They are not universal. But the trajectory exists without them. **Why debt makes it worse and faster:** Debt grows at the interest rate $r$; real wealth (assembly stock) decays at $\delta$. Solvency requires $Y \geq (r+\delta)W$—output must cover both debt service and maintenance. The interest component $rD$ imposes a growth floor: the economy must grow at least fast enough to service debt or face default. Endogenous money creation pulls exergy from the future into the present, accelerating construction. Debt doesn't create the ceiling; it compels faster approach toward it. 
 
 ### The thermal filter: timescales
 
-$n = \log_2(P_{\mathrm{ceiling}}/P_0)$ doublings to the ceiling ($P_0$ = current power, $P_{\mathrm{ceiling}}$ = maximum sustainable). For Earth: $P_0 \approx 18$ TW, $P_{\mathrm{ceiling}} \approx 1{,}200$ TW (1% of solar) $\to n \approx 6$. At 2.3%/year ($t_{\mathrm{double}} \approx 30$ years) → ~180 years. At 1% → ~430 years. Balbi & Lingam: habitable loss within ~1,000 years at 1% growth.
+The number of power doublings to the ceiling is $n = \log_2(P_{\mathrm{ceiling}}/P_0)$, where $P_0$ is current power and $P_{\mathrm{ceiling}}$ is the maximum sustainable. For Earth: $P_0 \approx 18$ TW, $P_{\mathrm{ceiling}} \approx 1{,}200$ TW (1% of solar) $\to n \approx 6$ doublings. At 2.3% annual growth, doubling time is ~30 years, so six doublings take ~180 years. At 1% growth, doubling time ~70 years, so ~430 years to the ceiling. Balbi & Lingam: habitable loss within ~1,000 years at 1% growth. The timescale is not geological. It is generational.
 
-**The gap:** The galaxy is ~13.6 billion years old. Civilisations that grow exponentially die in hundreds of years—too quickly to be noticed.
+**The gap:** The galaxy is ~13.6 billion years old. Civilisations that grow exponentially die in hundreds of years—too quickly to be noticed. This closes the loop with Fermi: if the thermodynamic relations are the Great Filter, the galaxy is silent because civilisations hit the ceiling before they can colonise it. The filter is not behind us (our existence); it may be ahead of us (our survival). 
+
 
 ### Why the standard escape fails
 
-**Dyson swarms:** The luminosity bottleneck. Disassembling Mercury requires waste heat radiated from Mercury's surface. At 700 K, extraction rate limits disassembly to ~57,000 years. At 3,000 K (refractory limits): ~170 years. Constructing a full swarm within a 200–300 year habitability window demands robotic mining at temperatures near material limits.
+**Dyson swarms:** A Dyson swarm would capture a large fraction of a star's output. Constructing it requires disassembling planets (e.g. Mercury) for raw material. The bottleneck: disassembly produces waste heat that must be radiated from the disassembly site. At 700 K (moderate temperatures), extraction limits disassembly to ~57,000 years. At 3,000 K (refractory limits): ~170 years. The habitability window on Earth—the time before waste heat makes the home world uninhabitable—is 200–300 years at current growth. Constructing a full swarm within that window demands robotic mining at temperatures near material limits. Researchers discussing Dyson swarm feasibility have often overlooked this thermodynamic constraint: the construction process itself generates waste heat that must be radiated, and the rate of construction is limited by the radiating surface available.
 
-**The maintenance trap:** Space structures degrade—micrometeorites, solar wind, thermal cycling. $P_{\mathrm{maint}} \geq \delta\Sigma$ ($\delta$ = decay rate, $\Sigma$ = assembly stock) applies at megastructure scale. At 1% annual degradation, replacement demands ~3,300 K surface temperatures. The swarm is not a cornucopia; it's dissipative structure with the same maintenance obligation.
+**The maintenance trap:** Space structures degrade—micrometeorites, solar wind, thermal cycling. The maintenance floor $P_{\mathrm{maint}} \geq \delta\Sigma$ applies at megastructure scale. At 1% annual degradation, replacement demands ~3,300 K surface temperatures. The swarm is not a cornucopia; it's dissipative structure with the same maintenance obligation. The link to Earth: the maintenance obligation is universal. Any civilisation that builds in space inherits the same physics. The technosphere on Earth already spends a large fraction of its power on maintenance; a space-based civilisation would face the same burden, with the added cost of operating in a hostile environment.
 
-**The bootstrap trap:** Civilisation cannot pause growth while bootstrapping. Competitive equilibrium ensures agents that grow outcompete. Growth funds the transition but generates the waste heat that closes the window. Murphy: "Unless a civilisation moves to space it cannot expand without seriously heating its home world"—restating the problem.
+**The bootstrap trap:** Civilisation cannot pause growth while bootstrapping. Competitive equilibrium ensures agents that grow outcompete. Growth funds the transition but generates the waste heat that closes the window. We are at ~1% of the ceiling and we are already moving to space—but space activities are negligible compared to the overall economy. The trap: meaningful space expansion (Dyson-scale or even substantial orbital industry) requires decades to centuries of sustained construction. During that period, the terrestrial economy continues to grow, consuming the thermal headroom. The bootstrap's power demand compounds with the growth that funds it. Murphy: "Unless a civilisation moves to space it cannot expand without seriously heating its home world"—restating the problem. The conclusion holds because the construction timescale for meaningful expansion exceeds the thermal window available on an unreduced-$\Gamma$ trajectory.
 
-**G-HAT survey:** 100,000 galaxies, null result. No galaxy captures >85% of starlight. Thermodynamic reading: Dyson swarms are rare because the construction window is too narrow and maintenance too demanding.
+**G-HAT survey:** The Glimpsing Heat from Alien Technologies (G-HAT) survey examined 100,000 galaxies for infrared signatures of Kardashev Type II/III civilisations—those capturing a large fraction of starlight. Null result: no galaxy captures >85% of starlight. The survey is not conclusive (it samples a snapshot; civilisations could be rare or short-lived), but it is consistent with the thermodynamic reading: Dyson swarms are rare because the construction window is too narrow and maintenance too demanding. If most civilisations hit the ceiling before completing a swarm, the galaxy would appear empty.
 
 ### The filter characterised
 
-- **Exists:** Waste heat ceiling and maintenance obligation are Tier 1, technology-independent.
-- **Dynamic:** The ratchet is Tier 2—a trajectory carrying civilisations toward the wall, not a static wall.
-- **Amplifiers contingent:** Tier 3. Different architecture → different timeline, same ceiling.
-- **Timescale argument:** Decision window of centuries to millennia vs. galactic billions of years. Small failure probability per civilisation per window → observed silence.
+- **Exists:** The waste heat ceiling and maintenance obligation are Tier 1—technology-independent. They apply to any civilisation, any chemistry, any governance. No engineering can repeal them.
+
+- **Dynamic:** The ratchet is Tier 2. The filter is not a static wall that civilisations bump into. It is a trajectory: competitive dynamics carry civilisations toward the ceiling. The default is non-viable; viable trajectories require overriding the ratchet.
+
+- **Amplifiers contingent:** Tier 3. Debt, endogenous money, short governance timescales accelerate the approach. Different institutional architecture would change the timeline—but not the ceiling. The physics is fixed; the speed of approach is not.
+
+- **Timescale argument:** The decision window for trajectory correction is centuries to millennia. The galaxy is ~13.6 billion years old. If each civilisation has a small probability of failing to correct within its window, and windows are short relative to galactic time, the observed silence follows. Civilisations that grow exponentially die too quickly to be noticed.
 
 ---
 
@@ -60,7 +68,9 @@ $n = \log_2(P_{\mathrm{ceiling}}/P_0)$ doublings to the ceiling ($P_0$ = current
 
 ### The kernel is K(p), not K
 
-The viability kernel's shape depends on parameters p—some fixed (Tier 1), some stiff (Tier 2), some compliant (Tier 3). Civilisation's problem is compound: navigate within the current kernel *and* modify p to reshape it. These tasks compete for resources.
+**What is a viability kernel?** The viability kernel $K$ is the set of states (assembly stock, temperature, debt, etc.) from which there exists at least one control trajectory that keeps the system inside the constraint set forever. States inside $K$: survival is possible. States outside $K$: no matter what controls are applied, the system will eventually violate a constraint (e.g. exceed the habitability temperature). The kernel is the "safe region" in state space.
+
+**K(p) vs K:** The kernel's shape depends on parameters $p$—emissivity $\varepsilon$, radiating area $A$, habitability threshold $T_{\mathrm{hab}}$, the composite coupling $\Gamma$, and so on. Write $K(p)$ to make this dependence explicit. Some parameters are fixed (Tier 1), some stiff (Tier 2), some compliant (Tier 3). Civilisation's problem is compound: navigate within the current kernel *and* modify $p$ to reshape it. These tasks compete for resources.
 
 ### Nostos vs kleos: two strategic directions
 
@@ -68,7 +78,11 @@ The essay distinguishes two directions a civilisation can take. **Nostos** (from
 
 ### The eight-parameter control surface
 
-$$\Sigma_{\max} = \frac{\varepsilon\sigma A T_{\mathrm{hab}}^4 - P_{\odot}}{\Gamma}$$ with $\Gamma = \mu\delta\xi/\eta_{\mathrm{II}}$ ($\mu$ = metabolic multiplier, $\delta$ = decay rate, $\xi$ = exergy cost, $\eta_{\mathrm{II}}$ = Second Law efficiency)
+The ceiling formula from Part 2 gives the maximum sustainable assembly stock. It depends on eight parameters, each with different operability. The following introduces the formula and the parameter structure.
+
+**The ceiling:** $\Sigma_{\max} = (\varepsilon\sigma A T_{\mathrm{hab}}^4 - P_{\odot}) / \Gamma$. The numerator is radiative physics: how much extra power the planet can radiate before exceeding the habitability threshold. The denominator is the power–assembly coupling: how much power civilisation needs per unit of assembly stock.
+
+**The coupling:** $\Gamma = \mu\delta\xi/\eta_{\mathrm{II}}$, where $\mu$ = metabolic multiplier (total power / maintenance power), $\delta$ = decay rate, $\xi$ = exergy cost per repair, $\eta_{\mathrm{II}}$ = Second Law efficiency. Lower $\Gamma$ widens the ceiling; higher $\Gamma$ narrows it.
 
 Eight parameters with real operability:
 
@@ -83,31 +97,34 @@ Eight parameters with real operability:
 | **$\xi$** (exergy cost) | Moderate | Moderate | Primarily nostos |
 | **$\mu$** (metabolic multiplier) | High | Mixed (Tier 3 compliant, Tier 2 stiff) | Primarily nostos; **discriminant** |
 
-**$\varepsilon$** is no-regrets: every survivable strategy prioritises it. **$\mu$** is the discriminant: strategies that neglect $\mu$-reduction fail. **$\alpha$** is the universal reserve: no strategy prioritises it for sustained deployment; every viable strategy holds it as insurance.
+**$\varepsilon$** is no-regrets: every survivable strategy prioritises it. ("No-regrets" means: there is no downside to acting; decarbonisation improves emissivity regardless of other choices.) **$\mu$** is the discriminant: strategies that neglect $\mu$-reduction fail. **$\alpha$** is the universal reserve: no strategy prioritises it for sustained deployment; every viable strategy holds it as insurance.
 
 ### The seven strategic orientations
+
+The control surface has two binary dimensions: nostos (yes/no) and kleos (yes/no). That yields four quadrants. The essay further subdivides the (nostos: yes, kleos: yes) quadrant into three orderings—nostos-first, kleos-first, parallel—giving seven distinct strategic orientations in total. 
 
 | | Nostos: No | Nostos: Yes |
 |--|-----------|-------------|
 | **Kleos: No** | S6: Apathy / S7: Ignorance | S1: Pure Nostos |
 | **Kleos: Yes** | S2: Pure Kleos | S3: Nostos-first / S4: Kleos-first / S5: Parallel |
 
-**S1 (Pure Nostos):** $\Gamma$-reduction to stabilise indefinitely. Viable. High coordination. Forecloses expansion (option retained for later).
+**S1 (Pure Nostos):** Systematic $\Gamma$-reduction to stabilise indefinitely within the planetary kernel. No space expansion. Viable, but requires the highest coordination. Forecloses expansion for the foreseeable future (option retained for later).
 
-**S2 (Pure Kleos):** Race for space without addressing $\Gamma$. Almost certainly non-viable. Bootstrap demand compounds thermal load.
+**S2 (Pure Kleos):** Race for space without addressing $\Gamma$. Maximise throughput, build the space-industrial bootstrap. Almost certainly non-viable: bootstrap power demand compounds the thermal load on a system that has not reduced its power-per-assembly coupling.
 
-**S3 (Nostos-first):** Stabilise, then expand. Viable. Lower peak coordination than S1. Risk: longer timeline, institutional coherence over centuries.
+**S3 (Nostos-first):** Stabilise first (reduce $\Gamma$, stay within kernel), then expand from a position of stability. Viable. Lower peak coordination than S1. Risk: longer total timeline, need for institutional coherence over centuries.
 
-**S4 (Kleos-first):** Expand first, reduce $\Gamma$ later. Probably non-viable. Construction timescales exceed thermal headroom on unreduced-$\Gamma$ trajectory. Early phase indistinguishable from S2.
+**S4 (Kleos-first):** Expand first, reduce $\Gamma$ later. Intend to secure headroom by raising the ceiling before addressing the coupling. Probably non-viable: construction timescales for meaningful $A$-expansion exceed the thermal headroom on an unreduced-$\Gamma$ trajectory. During the critical early phase, the parameter profile is nearly identical to S2.
 
-**S5 (Parallel):** Simultaneous $\Gamma$-reduction and $A$-expansion. Possibly viable. Highest coordination demand. Viability condition: kleos thermal cost < nostos headroom gain.
+**S5 (Parallel):** Simultaneous $\Gamma$-reduction and $A$-expansion. Possibly viable. Highest coordination demand. Viability condition: the thermal headroom consumed by the kleos investment must be smaller than the headroom created by the nostos programme running in parallel.
 
-**S6 (Apathy):** Aware but inactive. Non-viable. Human-relevant failure mode: solving greenhouse but not coupling.
+**S6 (Apathy):** Aware of the constraint but inactive or insufficiently active. Non-viable. The human-relevant failure mode: solving the greenhouse constraint (decarbonisation) but not the coupling ($\Gamma$-reduction). Efficiency gains are recycled through Jevons; the trajectory is unchanged.
 
-**S7 (Ignorance):** Unaware of ceiling. Non-viable. Probably modal outcome galaxy-wide. Externally indistinguishable from S2.
+**S7 (Ignorance):** Unaware of the ceiling. Rides the evolutionary ratchet without opposition. Non-viable. Probably the modal outcome galaxy-wide. From outside, indistinguishable from S2 (both produce a brief bright infrared flash, then silence).
 
 ### Observational signatures
 
+What would each strategy look like to an external observer (e.g. SETI)? The following describes the infrared and electromagnetic signatures:
 - **S1, S3:** Thermodynamically quiet. Invisible by design.
 - **S2, S7:** Brief bright infrared flash, then silence.
 - **S4:** Brightening flash; most likely flash then silence.
@@ -142,7 +159,7 @@ Is the nostos strategy—high assembly stock maintained at low $\Gamma$ within a
 
 The biosphere does not "choose" nostos. Its low $\Gamma$ is the equilibrium that competition produced given its landscape: no credit creation, no compound interest, gigayear timescales. The landscape-dependence result from §4.3 (C4) applies: change the landscape, change the attractor. The biosphere proves that low-$\Gamma$ equilibria exist. The task is to redesign the institutional landscape so that competition converges there on a compressed timescale.
 
-**Hanley's evidence:** The attractor shifted when Bretton Woods collapsed. The pre-1970 instability in the Garrett ratio marks precisely such a transition. The shift went in the wrong direction—but the mechanism is proof of concept. The competitive equilibrium responds to the landscape it operates on. The biosphere proves the destination exists. Hanley proves the rules can move the attractor. The open question: can the rules be moved deliberately, far enough, fast enough?
+**Hanley's evidence:** The attractor shifted when Bretton Woods collapsed (1971). Garrett's ratio $P \approx \lambda W$ was unstable before ~1970; it converged to its current value around the time the gold standard ended and fiat money creation expanded. Why Bretton Woods? That transition marked the full engagement of the modern financial architecture: endogenous money creation, global credit markets, and a growth compulsion enforced worldwide. The pre-1970 instability in the Garrett ratio marks precisely such a transition. The shift went in the wrong direction—$\Gamma$ rose—but the mechanism is proof of concept: the competitive equilibrium responds to the institutional landscape. The biosphere proves the destination exists. Hanley proves the rules can move the attractor. The open question: can the rules be moved deliberately, far enough, fast enough?
 
 ### The biosphere coupling
 
